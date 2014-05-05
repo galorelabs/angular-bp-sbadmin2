@@ -1,2 +1,8 @@
 .project
-.settings/**
+.settings
+*.sw*
+*~
+build/
+bin/
+node_modules/
+vendor/
