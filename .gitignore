@@ -1,4 +1,6 @@
 *.sw*
+.project
+.settings/**
 *~
 build/
 bin/
