@@ -66,9 +66,30 @@ module.exports = {
       'vendor/angular-bootstrap/ui-bootstrap-tpls.min.js',
       'vendor/placeholders/angular-placeholders-0.0.1-SNAPSHOT.min.js',
       'vendor/angular-ui-router/release/angular-ui-router.js',
-      'vendor/angular-ui-utils/modules/route/route.js'
+      'vendor/angular-ui-utils/modules/route/route.js',
+      
+      'vendor/sb-admin-v2/js/jquery-1.10.2.js',
+      'vendor/sb-admin-v2/js/bootstrap.js',
+      'vendor/sb-admin-v2/js/plugins/dataTables/jquery.dataTables.js',
+      'vendor/sb-admin-v2/js/plugins/dataTables/dataTables.bootstrap.js',
+      'vendor/sb-admin-v2/js/plugins/flot/excanvas.js',
+      'vendor/sb-admin-v2/js/plugins/flot/jquery.flot.js',
+      'vendor/sb-admin-v2/js/plugins/flot/jquery.flot.pie.js',
+      'vendor/sb-admin-v2/js/plugins/flot/jquery.flot.resize.js',
+      'vendor/sb-admin-v2/js/plugins/flot/jquery.flot.tooltip.min.js',
+      'vendor/sb-admin-v2/js/plugins/metisMenu/jquery.metisMenu.js',
+      'vendor/sb-admin-v2/js/plugins/morris/morris.js',
+      'vendor/sb-admin-v2/js/plugins/morris/raphael-2.1.0.min.js',
+      'vendor/sb-admin-v2/js/sb-admin.js'
     ],
-    css: [
+    css: [   
+    	
+    	'vendor/sb-admin-v2/css/bootstrap.min.css',
+    	'vendor/sb-admin-v2/css/plugins/timeline/timeline.css',
+    	'vendor/sb-admin-v2/css/plugins/social-buttons/social-buttons.css',
+    	'vendor/sb-admin-v2/css/plugins/morris/morris-0.4.3.min.css',
+    	'vendor/sb-admin-v2/css/plugins/dataTables/dataTables.bootstrap.css',
+    	'vendor/sb-admin-v2/css/sb-admin.css',
     ],
     assets: [
     ]
