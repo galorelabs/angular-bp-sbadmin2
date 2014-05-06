@@ -5,10 +5,10 @@ angular.module( 'ngBoilerplate.about', [
 ])
 
 .config(function config( $stateProvider ) {
-  $stateProvider.state( 'about', {
-    url: '/about',
+  $stateProvider.state( 'dashboard.about', {
+    url: 'about',
     views: {
-      "main": {
+      "admin-content": {
         controller: 'AboutCtrl',
         templateUrl: 'about/about.tpl.html'
       }

@@ -284,7 +284,8 @@ module.exports = function ( grunt ) {
         noarg: true,
         sub: true,
         boss: true,
-        eqnull: true
+        eqnull: true,
+        "-W099": true
       },
       globals: {}
     },

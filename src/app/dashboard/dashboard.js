@@ -28,18 +28,20 @@ angular.module( 'ngBoilerplate.home', [
     views: {
       "main": {
         controller: 'HomeCtrl',
-        templateUrl: '_template/dashboard.tpl.html'
+        templateUrl: '_template/admin.tpl.html'
       }
     },
     data:{ pageTitle: 'Home' }
-  });
+  })
+  ;
+  
 })
 
 /**
  * And of course we define a controller for our route.
  */
-.controller( 'HomeCtrl', function HomeController( $scope ) {
-
+.controller( 'HomeCtrl', function HomeController( $scope, $state ) {
+	$scope.$state = $state;
 })
 
 ;
