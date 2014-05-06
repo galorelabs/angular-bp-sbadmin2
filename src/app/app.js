@@ -5,6 +5,7 @@ angular.module( 'ngBoilerplate', [
   'ngBoilerplate.about',
   'ngBoilerplate.tables',
   'ngBoilerplate.forms',
+  'ngBoilerplate.panels_and_wells',
   'ui.router'
 ])
 
