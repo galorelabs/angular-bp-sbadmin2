@@ -1,8 +1,6 @@
 angular.module( 'ngBoilerplate', [
   'templates-app',
   'templates-common',
-  'ngBoilerplate.home',
-  'ngBoilerplate.about',
   'ngBoilerplate.tables',
   'ngBoilerplate.forms',
   'ngBoilerplate.panels_and_wells',
