@@ -3,7 +3,7 @@ angular-bp-sbadmin2
 How to configure/setup your own local development environment
 1.) To install as http://www.mywebsite.com
 2.) Install Node.js and then:
-$ git clone git@github.com:galorelabs/angular-bp-sbadmin2.git angular-bp-sbadmin2
+$ git clone git@github.com:galorelabs/angular-bp-sbadmin2.git
 $ cd angular-bp-sbadmin2
 $ sudo npm -g install grunt-cli karma bower
 $ npm install
