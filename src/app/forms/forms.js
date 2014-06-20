@@ -1,6 +1,5 @@
 angular.module( 'ngBoilerplate.forms', [
   'ui.router',
-  'placeholders',
   'ui.bootstrap'
 ])
 

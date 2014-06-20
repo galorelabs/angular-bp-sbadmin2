@@ -1,6 +1,5 @@
 angular.module( 'ngBoilerplate.panels_and_wells', [
   'ui.router',
-  'placeholders',
   'ui.bootstrap'
 ])
 

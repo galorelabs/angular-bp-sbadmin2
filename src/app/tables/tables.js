@@ -1,6 +1,5 @@
 angular.module( 'ngBoilerplate.tables', [
   'ui.router',
-  'placeholders',
   'ui.bootstrap'
 ])
 

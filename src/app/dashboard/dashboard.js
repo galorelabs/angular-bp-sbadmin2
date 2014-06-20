@@ -40,7 +40,8 @@ angular.module( 'ngBoilerplate.home', [
 /**
  * And of course we define a controller for our route.
  */
-.controller( 'HomeCtrl', function HomeController( $scope, $state ) {
+.controller( 'HomeCtrl', function HomeCtrl( $scope, $state ) {
+    console.log ($state);
 	$scope.$state = $state;
 })
 
